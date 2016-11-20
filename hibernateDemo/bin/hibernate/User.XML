@@ -1,0 +1,27 @@
+<class name="hibernate.User">
+	<table>users</table>
+	<filed name="id">
+	<column>id</column>
+	<type>int</type>
+	</filed>
+	<filed name="loginName">
+	<column>loginName</column>
+	<type>String</type>
+	</filed>
+	<filed name="password">
+	<column>password</column>
+	<type>String</type>
+	</filed>
+	<filed name="name">
+	<column>name</column>
+	<type>String</type>
+	</filed>
+	<filed name="age">
+	<column>age</column>
+	<type>int</type>
+	</filed>
+	<filed name="gender">
+	<column>gender</column>
+	<type>String</type>
+	</filed>
+</class>
